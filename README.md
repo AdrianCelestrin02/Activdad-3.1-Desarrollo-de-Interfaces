@@ -1,16 +1,28 @@
-# React + Vite
+#  Currículum Vitae y Portfolio Profesional - Adrián Celestrín Corrales
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web interactiva desarrollada con **React** y **Vite**, diseñada para funcionar como un currículum vitae moderno, limpio y profesional. Cuenta con una estructura optimizada en dos columnas, diseño responsivo y un estilo visual atractivo.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Tecnologías Utilizadas
 
-## React Compiler
+* **React (JSX)**: Biblioteca principal para la estructura de la interfaz.
+* **Vite**: Entorno de desarrollo rápido para proyectos web modernos.
+* **CSS3**: Estilos personalizados, uso de Flexbox, CSS Grid y efectos de gradiente.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+##  Estructura del Proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+actividad3.1/
+├── public/                # Archivos estáticos
+├── src/
+│   ├── assets/            # Recursos visuales (fotografía de perfil, iconos)
+│   ├── App.css            # Estilos globales y específicos del CV
+│   ├── App.jsx            # Componente principal con la estructura del CV
+│   ├── index.css          # Estilos base
+│   └── main.jsx           # Punto de entrada de la aplicación
+├── index.html             # Plantilla HTML principal
+├── package.json           # Dependencias y scripts del proyecto
+└── README.md              # Documentación del proyecto
